@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap");
+
 .clear-btn {
   height: 4em;
   display: flex;
@@ -5,8 +7,15 @@
   align-items: center;
   font-weight: lighter;
   font-size: 1.4em;
-  background-color: white;
+  font-family: "Noto Sans", sans-serif;
+  background-color: ghostwhite;
   color: black;
   flex: 1;
   outline: 1px solid #888888;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+.clear-btn:hover {
+  background-color: plum;
 }

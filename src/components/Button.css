@@ -5,13 +5,25 @@
   align-items: center;
   font-weight: lighter;
   font-size: 1.4em;
-  background-color: white;
-  color: #888;
+  font-family: "MuseoModerno", cursive;
+  background-color: seashell;
+  color: black;
   flex: 1;
   outline: 1px solid #888;
+  cursor: pointer;
+  transition: background-color 2s;
+}
+
+.button-wrapper:hover {
+  background-color: palegreen;
 }
 
 .operator {
-  background-color: #fe9241;
+  background-color: darkorange;
   color: white;
+  transition: background-color 2s;
+}
+
+.operator:hover {
+  background-color: navajowhite;
 }
